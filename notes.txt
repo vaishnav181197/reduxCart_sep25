@@ -1,0 +1,36 @@
+cp=1
+ppp=10
+
+products[] => 0-29
+
+start=0
+end=9
+
+products.slice(0,10)
+
+endIndex=cp*ppp =10
+startIndex=endIndex-ppp=0
+
+---------------------------------
+cp=2
+ppp=10
+
+products=>0-29
+
+10-19
+products.slice(10,20)
+
+endIndex=cp*ppp=20
+startIndex=endIndex-ppp=10
+
+--------------------------------
+cp=3
+ppp=10
+
+products=>0-29
+
+20-29
+products.slice(20,30)
+
+endIndex=cp*ppp=30
+startIndex=endIndex-ppp=20
